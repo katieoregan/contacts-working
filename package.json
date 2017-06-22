@@ -1,0 +1,19 @@
+{
+  "name": "contactsapp",
+  "version": "1.0.0",
+  "description": "contacts app",
+  "main": "accounts.js",
+  "dependencies": {
+    "express": "^4.7.2",
+    "body-parser": "^1.5.2",
+    "bourne": "^0.4.0",
+    "express-session": "^1.7.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Katie O' Regan",
+  "license": "ISC"
+}

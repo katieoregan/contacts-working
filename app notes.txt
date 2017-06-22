@@ -1,0 +1,26 @@
+-node allows us to run js on a server outside of a browser
+-bower is a package manager for front end packages eg angular, bootstrap
+-npm is a package manager for back end packages
+
+- src file - custom js
+- router
+ .param - only run when one paramater of route is ID
+
+- delete promise resolve - deletes old values when new ones entered
+
+-Contact.query - returns contacts to user
+
+-sort by field
+   $scope.sort = function (field) {
+            $scope.sort.field = field;
+            $scope.sort.order = !$scope.sort.order;
+        };
+
+        $scope.sort.field = 'firstName';
+        $scope.sort.order = false; - descending order
+    });
+
+- input replace filter - space and capitilise first letter
+-live attribute -automatic save for update
+
+- '=' two way binding
